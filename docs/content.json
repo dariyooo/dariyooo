@@ -1,0 +1,191 @@
+{
+  "theme": {
+    "accent": "#3563A8",
+    "accent2": "#3E8A6E"
+  },
+  "character": {
+    "model": "assets/Head.obj",
+    "texture": "assets/head-texture.png"
+  },
+  "brand": {
+    "name": "Dario",
+    "avatar": "https://avatars.githubusercontent.com/u/51273483?v=4",
+    "githubUrl": "https://github.com/dariyooo"
+  },
+  "nav": [
+    { "label": "Work", "href": "#work" },
+    { "label": "Toolkit", "href": "#toolkit" },
+    { "label": "Open source", "href": "#opensource" },
+    { "label": "About", "href": "#about" }
+  ],
+  "hero": {
+    "eyebrow": "ML ENGINEER · BERLIN / 京都",
+    "intro1": "It's-a me,",
+    "intro2": "Dario!",
+    "title": "Hi, I'm Dario.",
+    "subtitle": "I build efficient apps top to bottom: from the UI, over the ML to the high performance core."
+  },
+  "about": {
+    "num": "1",
+    "kicker": "自己紹介 / ABOUT",
+    "heading": "Edge ML, Flutter, and a soft spot for Japanese.",
+    "avatar": "https://avatars.githubusercontent.com/u/51273483?v=4",
+    "badge": "D",
+    "paras": [
+      "I'm an ML engineer splitting time between Berlin, Kyoto and the rest of the world. I like squeezing machine-learning models onto tiny devices, building cross-platform apps with Flutter, and tinkering with IoT. With an M.S. in Computational Science, I specialise in deploying optimized NLP and CV models in the cloud, to the edge, or anywhere in between.",
+      "I'm the maker of <a href=\"https://dakanji.app\" target=\"_blank\" rel=\"noopener\">DaKanji</a>, a fully offline Japanese dictionary that recognises hand-drawn kanji. When a model runs entirely on-device, with no server and no waiting, that's the good stuff."
+    ],
+    "tags": ["📍 Berlin & Kyoto", "🌏 On-device AI", "🈶 Language learning", "📱 Cross-platform dev"]
+  },
+  "work": {
+    "num": "2",
+    "kicker": "作品 / SELECTED WORK",
+    "heading": "Things I've built.",
+    "linkLabel": "All 54 repos ↗",
+    "linkUrl": "https://github.com/dariyooo",
+    "items": [
+      {
+        "lang": "Dart · Flutter",
+        "langColor": "#00B4AB",
+        "stars": "★ 133",
+        "icon": { "type": "img", "src": "https://raw.githubusercontent.com/dariyooo/DaKanji/main/assets/images/dakanji/icon.png" },
+        "name": "DaKanji",
+        "desc": "An offline, cross-platform Japanese dictionary. Draw a kanji, get the reading. Works like magic on iOS, Android, Mac, Windows & Linux.",
+        "stats": [ { "value": "10k+", "label": "downloads" }, { "value": "5", "label": "platforms" } ],
+        "url": "https://github.com/dariyooo/DaKanji",
+        "footer": "View repo · dakanji.app ↗"
+      },
+      {
+        "lang": "Python · PyTorch",
+        "langColor": "#3572A5",
+        "stars": "★ 59",
+        "icon": { "type": "char", "char": "筆" },
+        "name": "Kanji Recognition",
+        "desc": "The ML model behind DaKanji. It recognises 6,500+ handwritten kanji plus all kana, entirely offline.",
+        "stats": [ { "value": "<1 ms", "label": "latency" }, { "value": "3 MB", "label": "on disk" } ],
+        "url": "https://github.com/dariyooo/DaKanji-Single-Kanji-Recognition",
+        "footer": "View repo ↗"
+      },
+      {
+        "lang": "C++ · Dart FFI",
+        "langColor": "#f34b7d",
+        "stars": "★ 5",
+        "icon": { "type": "img", "src": "https://cdn.simpleicons.org/dart" },
+        "name": "mecab_for_dart",
+        "desc": "MeCab, the Japanese morphological analyzer, with clean Dart bindings that run on every platform.",
+        "stats": [ { "value": "577", "label": "pub.dev installs" }, { "value": "4 ♥", "label": "likes" } ],
+        "url": "https://github.com/dariyooo/mecab_for_dart",
+        "footer": "View repo · pub.dev ↗"
+      },
+      {
+        "lang": "Python",
+        "langColor": "#3572A5",
+        "stars": "★ 7",
+        "icon": { "type": "img", "src": "https://cdn.simpleicons.org/python" },
+        "name": "ETLCDB reader",
+        "desc": "A tidy Python loader for the ETL Character Database, the training data that makes handwriting models tick.",
+        "stats": [ { "value": "1.6M+", "label": "characters" }, { "value": "11", "label": "datasets" } ],
+        "url": "https://github.com/dariyooo/ETLCDB_data_reader",
+        "footer": "View repo ↗"
+      }
+    ]
+  },
+  "toolkit": {
+    "num": "3",
+    "kicker": "技術 / TOOLKIT",
+    "heading": "What I build with.",
+    "intro": "My tech stack: from UI to the high performance core that powers it all.",
+    "categories": [
+      {
+        "en": "Machine Learning",
+        "jp": "キカイガクシュウ",
+        "mark": "学",
+        "markBg": "var(--accent)",
+        "desc": "Training models, then shrinking them to run fully on-device with no server in the loop.",
+        "items": ["Python", "PyTorch", "ExecuTorch", "torchao", "ONNX", "TensorFlow (Lite)"]
+      },
+      {
+        "en": "Apps & Cross-platform",
+        "jp": "アプリカイハツ",
+        "mark": "応",
+        "markBg": "var(--accent-2)",
+        "desc": "Fast, offline-first apps that ship to iOS, Android, macOS, Windows, Linux and web from one codebase.",
+        "items": ["Flutter", "Dart", "SQLite", "Cross-platform"]
+      },
+      {
+        "en": "High performance core",
+        "jp": "コア",
+        "mark": "核",
+        "markBg": "#232733",
+        "desc": "Native bindings, embedded hardware, and the plumbing that keeps releases flowing.",
+        "items": ["C / C++", "Dart FFI", "IoT", "Docker", "Git"]
+      }
+    ]
+  },
+  "experience": {
+    "num": "4",
+    "kicker": "職歴 / EXPERIENCE",
+    "heading": "Where I've worked.",
+    "roles": [
+      {
+        "company": "Dassault Systèmes",
+        "meta": "Berlin · 2021–2024",
+        "title": "Machine Learning Intern",
+        "bullets": [
+          "Built a machine-learning recommender system for parametric 2D geometry.",
+          "Saves hundreds of engineering hours when creating CAD models."
+        ]
+      },
+      {
+        "company": "Dassault Systèmes",
+        "meta": "Berlin · 2020–2021",
+        "title": "Quality Assurance Intern",
+        "bullets": [
+          "Built a Python + Jenkins test-automation server to define, schedule and run tests.",
+          "Enhanced a Python testing tool, improving the reliability of systematic version testing.",
+          "Researched automated UI testing for legacy UI frameworks."
+        ]
+      }
+    ]
+  },
+  "credits": {
+    "num": "5",
+    "kicker": "語学と実績 / LANGUAGES & ACHIEVEMENTS",
+    "heading": "A bit more about me.",
+    "languages": [
+      { "name": "German", "meta": "Native · Muttersprache", "level": 100 },
+      { "name": "English", "meta": "Fluent · TOEFL 109", "level": 90 },
+      { "name": "Spanish", "meta": "~ Intermediate · B2", "level": 65 },
+      { "name": "Japanese 日本語", "meta": "~ Intermediate · B1", "level": 55 }
+    ],
+    "achievements": [
+      { "mark": "学", "title": "M.S. Computer Science · GPA 4.0", "desc": "TU Berlin, with an exchange year at Kyoto University." },
+      { "mark": "G", "title": "Google Open Source Peer Bonus", "desc": "Recognised by Google for open-source contributions." },
+      { "mark": "1", "title": "Bundeswettbewerb Informatik", "desc": "1st & 3rd prize in Germany's national computer-science competition." },
+      { "mark": "音", "title": "Jugend Musiziert · 2nd prize", "desc": "Brandenburg's youth-music competition." }
+    ]
+  },
+  "opensource": {
+    "num": "6",
+    "kicker": "貢献 / OPEN SOURCE",
+    "heading": "Out in the open.",
+    "intro": "My contributions to other open source projects.",
+    "githubUser": "dariyooo",
+    "linkLabel": "All my pull requests ↗",
+    "linkUrl": "https://github.com/pulls?q=is%3Apr+author%3Adariyooo",
+    "pageSize": 9
+  },
+  "contact": {
+    "num": "7",
+    "kicker": "連絡 / SAY HELLO",
+    "heading": "Let's build something meaningful together.",
+    "watermark": "連",
+    "buttons": [
+      { "label": "GitHub @dariyooo ↗", "url": "https://github.com/dariyooo", "primary": true },
+      { "label": "♥ Sponsor", "url": "https://github.com/sponsors/dariyooo", "primary": false },
+      { "label": "Try DaKanji ↗", "url": "https://dakanji.app", "primary": false }
+    ],
+    "footerLeft": "© 2026 Dario Klepoch · Berlin / 京都",
+    "footerRight": "ダ漢字使ってくれてありがとう。日本語頑張ってね。"
+  }
+}
