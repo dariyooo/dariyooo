@@ -4,8 +4,8 @@
     "accent2": "#3E8A6E"
   },
   "character": {
-    "model": "assets/Head.obj",
-    "texture": "assets/head-texture.png"
+    "model": "assets/avatar-head.obj",
+    "texture": "assets/avatar-head.png"
   },
   "brand": {
     "name": "Dario",
@@ -186,6 +186,6 @@
       { "label": "Try DaKanji ↗", "url": "https://dakanji.app", "primary": false }
     ],
     "footerLeft": "© 2026 Dario Klepoch · Berlin / 京都",
-    "footerRight": "ダ漢字使ってくれてありがとう。日本語頑張ってね。"
+    "footerRight": "一緒に頑張ろう。"
   }
 }

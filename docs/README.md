@@ -1,18 +1,26 @@
 # Dario — portfolio site
 
-A single-page static site. **No build step** — just three things:
+A single-page static site. **No build step.** Files are split by concern:
 
 ```
 site/
-├─ index.html          ← the page (structure + styles + 3D head + logic)
-├─ content.json        ← ALL your text/content — edit this
+├─ index.html          ← page structure only (markup + script tags)
+├─ css/
+│  └─ styles.css       ← global styles, animations, responsive rules
+├─ js/
+│  ├─ render.js        ← builds each section's HTML from the data
+│  ├─ field.js         ← floating-kanji background canvas
+│  ├─ head.js          ← the 3D draggable head (three.js)
+│  └─ app.js           ← boot: loads data, renders, starts the head
+├─ data/
+│  └─ content.json     ← ALL your text/content — edit this
 └─ assets/
-   ├─ Head.obj         ← the 3D character model
-   └─ head-texture.png ← its texture
+   ├─ avatar-head.obj  ← the 3D character model
+   └─ avatar-head.png  ← its texture
 ```
 
 ## Editing content
-Open **`content.json`** and change the text. The UI re-renders from it on reload — no code changes needed. Examples:
+Open **`data/content.json`** and change the text. The UI re-renders from it on reload — no code changes needed. Examples:
 
 - **Add a project** → add an object to `work.items`.
 - **Add a toolkit category** → add to `toolkit.categories`.
@@ -23,7 +31,7 @@ Open **`content.json`** and change the text. The UI re-renders from it on reload
 The **Open source** section is pulled live from GitHub for `opensource.githubUser` — nothing to edit there.
 
 ## Running / deploying
-It must be served over HTTP (it fetches `content.json`), not opened as a `file://`.
+It must be served over HTTP (it fetches `data/content.json` and the model), not opened as a `file://`.
 
 Local preview:
 ```
@@ -32,4 +40,4 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-Deploy: upload the `site/` folder to any static host — GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc. (drag-and-drop the folder, or point the host at it).
+Deploy: upload the `site/` folder to any static host — GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
