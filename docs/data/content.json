@@ -4,8 +4,8 @@
     "accent2": "#3E8A6E"
   },
   "character": {
-    "model": "assets/avatar-head.obj",
-    "texture": "assets/avatar-head.png"
+    "model": "assets/avatar-head.obj.gz",
+    "texture": "assets/avatar-head.webp"
   },
   "brand": {
     "name": "Dario",

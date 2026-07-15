@@ -48,7 +48,13 @@ class Head {
 
   loadModel(url, texUrl) {
     const THREE = this.THREE;
-    fetch(url).then(r => r.text()).then(txt => {
+    fetch(url).then(r => {
+      // Gzipped meshes are served as raw bytes; gunzip in-browser (DecompressionStream: Safari 16.4+).
+      if (url.endsWith('.gz') && r.body) {
+        return new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text();
+      }
+      return r.text();
+    }).then(txt => {
       const V = [], VT = [], posArr = [], uvArr = [];
       const faces = [];
       for (const ln of txt.split('\n')) {
