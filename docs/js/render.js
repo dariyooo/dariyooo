@@ -12,8 +12,10 @@ function workIcon(icon) {
 }
 
 function renderNav(c) {
+  const el = document.getElementById('nav');
+  if (!el) return;
   const links = c.nav.map(n => `<a href="${n.href}" class="navlink" style="font-size:15px;font-weight:500;">${n.label}</a>`).join('');
-  document.getElementById('nav').innerHTML = `
+  el.innerHTML = `
     <a href="#top" style="display:flex;align-items:center;gap:11px;font-family:'Zen Maru Gothic',sans-serif;font-weight:700;font-size:20px;color:#232733;">
       <img src="${c.brand.avatar}" alt="${c.brand.name}" style="width:34px;height:34px;border-radius:11px;object-fit:cover;display:block;box-shadow:0 3px 0 rgba(35,39,51,0.15);">
       ${c.brand.name}
