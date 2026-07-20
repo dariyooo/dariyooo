@@ -19,14 +19,14 @@
   <!-- ================= HERO ================= -->
   <section style="position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:80px 20px 60px;background:radial-gradient(125% 95% at 50% 12%, #FCFCFD 0%, #F5F6F8 44%, #E9ECF1 100%);">
     <canvas id="kanji-field" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
-    <div id="intro-veil" style="position:absolute;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;pointer-events:none;background:#F5F6F8;animation:introVeil 2.3s ease forwards;">
-      <div style="text-align:center;animation:introWord 2.3s cubic-bezier(.18,.75,.2,1) forwards;">
+    <div id="intro-veil" style="position:absolute;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;pointer-events:none;background:#F5F6F8;">
+      <div id="intro-word" style="text-align:center;">
         <div id="intro1" style="font-family:'Luckiest Guy',cursive;font-size:clamp(26px,5vw,60px);letter-spacing:0.01em;color:#3563A8;margin-bottom:6px;transform:rotate(-3deg);text-shadow:0 3px 0 #24406b;"></div>
         <div id="intro2" style="font-family:'Luckiest Guy',cursive;font-size:clamp(70px,16vw,230px);letter-spacing:0.02em;color:#3E8A6E;line-height:0.92;transform:rotate(2deg);text-shadow:0 6px 0 #232733, 0 10px 18px rgba(35,39,51,0.28);"></div>
       </div>
     </div>
     <p id="hero-eyebrow" style="position:relative;z-index:1;margin:-26px 0 8px;font-size:13px;letter-spacing:0.28em;font-weight:700;color:var(--accent,#3563A8);"></p>
-    <div style="position:relative;z-index:1;width:100%;max-width:100%;height:clamp(300px,40vw,440px);margin:0 auto;user-select:none;animation:introReveal 2.3s ease forwards;">
+    <div id="intro-stage" style="position:relative;z-index:1;width:100%;max-width:100%;height:clamp(300px,40vw,440px);margin:0 auto;user-select:none;">
       <canvas id="dario-face-canvas" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(820px,94vw);height:min(820px,94vw);display:block;cursor:grab;touch-action:pan-y;"></canvas>
     </div>
     <h1 id="hero-title" style="position:relative;z-index:1;margin:20px 0 0;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:clamp(38px,7vw,74px);line-height:1.02;letter-spacing:-0.01em;"></h1>

@@ -15,6 +15,18 @@ a:hover { color: var(--accent-2, #3E8A6E); }
 @keyframes introWord { 0%{transform:scale(0.35);opacity:0} 15%{transform:scale(1);opacity:1} 30%{transform:scale(1.02)} 52%{transform:scale(0.98);opacity:1} 100%{transform:scale(11);opacity:0} }
 @keyframes introVeil { 0%,52%{opacity:1} 100%{opacity:0;visibility:hidden} }
 @keyframes introReveal { 0%,50%{opacity:0;transform:scale(0.82)} 66%{opacity:1;transform:scale(1.06)} 82%{transform:scale(0.98)} 100%{opacity:1;transform:scale(1)} }
+/* The intro only starts once app.js has filled in the text and the display
+   font is ready (.intro-play on #top) - otherwise a slow first load would run
+   the animation against an empty veil and it looks like it was skipped. */
+#intro-stage { opacity: 0; }
+.intro-play #intro-veil  { animation: introVeil 2.3s ease forwards; }
+.intro-play #intro-word  { animation: introWord 2.3s cubic-bezier(.18,.75,.2,1) forwards; }
+.intro-play #intro-stage { animation: introReveal 2.3s ease forwards; }
+@media (prefers-reduced-motion: reduce) {
+  .intro-play #intro-veil  { animation: none; opacity: 0; visibility: hidden; }
+  .intro-play #intro-word  { animation: none; }
+  .intro-play #intro-stage { animation: none; opacity: 1; }
+}
 @media (max-width: 900px) {
   .g-os { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
 }
