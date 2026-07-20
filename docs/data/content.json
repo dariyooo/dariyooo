@@ -13,10 +13,22 @@
     "githubUrl": "https://github.com/dariyooo"
   },
   "nav": [
-    { "label": "Work", "href": "#work" },
-    { "label": "Toolkit", "href": "#toolkit" },
-    { "label": "Open source", "href": "#opensource" },
-    { "label": "About", "href": "#about" }
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Toolkit",
+      "href": "#toolkit"
+    },
+    {
+      "label": "Open source",
+      "href": "#opensource"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    }
   ],
   "hero": {
     "eyebrow": "ML ENGINEER · BERLIN / 京都",
@@ -35,7 +47,12 @@
       "I'm an ML engineer splitting time between Berlin, Kyoto and the rest of the world. I like squeezing machine-learning models onto tiny devices, building cross-platform apps with Flutter, and tinkering with IoT. With an M.S. in Computational Science, I specialise in deploying optimized NLP and CV models in the cloud, to the edge, or anywhere in between.",
       "I'm the maker of <a href=\"https://dakanji.app\" target=\"_blank\" rel=\"noopener\">DaKanji</a>, a fully offline Japanese dictionary that recognises hand-drawn kanji. When a model runs entirely on-device, with no server and no waiting, that's the good stuff."
     ],
-    "tags": ["📍 Berlin & Kyoto", "🌏 On-device AI", "🈶 Language learning", "📱 Cross-platform dev"]
+    "tags": [
+      "📍 Berlin & Kyoto",
+      "🌏 On-device AI",
+      "🈶 Language learning",
+      "📱 Cross-platform dev"
+    ]
   },
   "work": {
     "num": "2",
@@ -48,10 +65,22 @@
         "lang": "Dart · Flutter",
         "langColor": "#00B4AB",
         "stars": "★ 135",
-        "icon": { "type": "img", "src": "https://raw.githubusercontent.com/dariyooo/DaKanji/main/assets/images/dakanji/icon.png" },
+        "icon": {
+          "type": "img",
+          "src": "https://raw.githubusercontent.com/dariyooo/DaKanji/main/assets/images/dakanji/icon.png"
+        },
         "name": "DaKanji",
         "desc": "An offline, cross-platform Japanese dictionary. Draw a kanji, get the reading. Works like magic on iOS, Android, Mac, Windows & Linux.",
-        "stats": [ { "value": "10k+", "label": "downloads" }, { "value": "5", "label": "platforms" } ],
+        "stats": [
+          {
+            "value": "10k+",
+            "label": "downloads"
+          },
+          {
+            "value": "5",
+            "label": "platforms"
+          }
+        ],
         "url": "https://github.com/dariyooo/DaKanji",
         "footer": "View repo · dakanji.app ↗"
       },
@@ -59,10 +88,22 @@
         "lang": "Python · PyTorch",
         "langColor": "#3572A5",
         "stars": "★ 59",
-        "icon": { "type": "char", "char": "筆" },
+        "icon": {
+          "type": "char",
+          "char": "筆"
+        },
         "name": "Kanji Recognition",
         "desc": "The ML model behind DaKanji. It recognises 6,500+ handwritten kanji plus all kana, entirely offline.",
-        "stats": [ { "value": "<1 ms", "label": "latency" }, { "value": "3 MB", "label": "on disk" } ],
+        "stats": [
+          {
+            "value": "<1 ms",
+            "label": "latency"
+          },
+          {
+            "value": "3 MB",
+            "label": "on disk"
+          }
+        ],
         "url": "https://github.com/dariyooo/DaKanji-Single-Kanji-Recognition",
         "footer": "View repo ↗"
       },
@@ -70,10 +111,22 @@
         "lang": "C++ · Dart FFI",
         "langColor": "#f34b7d",
         "stars": "★ 5",
-        "icon": { "type": "img", "src": "https://cdn.simpleicons.org/dart" },
+        "icon": {
+          "type": "img",
+          "src": "https://cdn.simpleicons.org/dart"
+        },
         "name": "mecab_for_dart",
         "desc": "MeCab, the Japanese morphological analyzer, with clean Dart bindings that run on every platform.",
-        "stats": [ { "value": "577", "label": "pub.dev installs" }, { "value": "4 ♥", "label": "likes" } ],
+        "stats": [
+          {
+            "value": "577",
+            "label": "pub.dev installs"
+          },
+          {
+            "value": "4 ♥",
+            "label": "likes"
+          }
+        ],
         "url": "https://github.com/dariyooo/mecab_for_dart",
         "footer": "View repo · pub.dev ↗"
       },
@@ -81,10 +134,22 @@
         "lang": "Python",
         "langColor": "#3572A5",
         "stars": "★ 7",
-        "icon": { "type": "img", "src": "https://cdn.simpleicons.org/python" },
+        "icon": {
+          "type": "img",
+          "src": "https://cdn.simpleicons.org/python"
+        },
         "name": "ETLCDB reader",
         "desc": "A tidy Python loader for the ETL Character Database, the training data that makes handwriting models tick.",
-        "stats": [ { "value": "1.6M+", "label": "characters" }, { "value": "11", "label": "datasets" } ],
+        "stats": [
+          {
+            "value": "1.6M+",
+            "label": "characters"
+          },
+          {
+            "value": "11",
+            "label": "datasets"
+          }
+        ],
         "url": "https://github.com/dariyooo/ETLCDB_data_reader",
         "footer": "View repo ↗"
       }
@@ -102,7 +167,14 @@
         "mark": "学",
         "markBg": "var(--accent)",
         "desc": "Training models, then shrinking them to run fully on-device with no server in the loop.",
-        "items": ["Python", "PyTorch", "ExecuTorch", "torchao", "ONNX", "TensorFlow (Lite)"]
+        "items": [
+          "Python",
+          "PyTorch",
+          "ExecuTorch",
+          "torchao",
+          "ONNX",
+          "TensorFlow (Lite)"
+        ]
       },
       {
         "en": "Apps & Cross-platform",
@@ -110,7 +182,12 @@
         "mark": "応",
         "markBg": "var(--accent-2)",
         "desc": "Fast, offline-first apps that ship to iOS, Android, macOS, Windows, Linux and web from one codebase.",
-        "items": ["Flutter", "Dart", "SQLite", "Cross-platform"]
+        "items": [
+          "Flutter",
+          "Dart",
+          "SQLite",
+          "Cross-platform"
+        ]
       },
       {
         "en": "High performance core",
@@ -118,7 +195,13 @@
         "mark": "核",
         "markBg": "#232733",
         "desc": "Native bindings, embedded hardware, and the plumbing that keeps releases flowing.",
-        "items": ["C / C++", "Dart FFI", "IoT", "Docker", "Git"]
+        "items": [
+          "C / C++",
+          "Dart FFI",
+          "IoT",
+          "Docker",
+          "Git"
+        ]
       }
     ]
   },
@@ -127,6 +210,15 @@
     "kicker": "職歴 / EXPERIENCE",
     "heading": "Where I've worked.",
     "roles": [
+      {
+        "company": "Zollsoft GmbH",
+        "meta": "Jena · 2025-present",
+        "title": "Machine Learning Engineer",
+        "bullets": [
+          "Built AI based document analysis to automatically recognize and analyze form fields",
+          "Built AI based document analysis and summary for medical reports."
+        ]
+      },
       {
         "company": "Dassault Systèmes",
         "meta": "Berlin · 2021–2024",
@@ -153,16 +245,48 @@
     "kicker": "語学と実績 / LANGUAGES & ACHIEVEMENTS",
     "heading": "A bit more about me.",
     "languages": [
-      { "name": "German", "meta": "Native · Muttersprache", "level": 100 },
-      { "name": "English", "meta": "Fluent · TOEFL 109", "level": 90 },
-      { "name": "Spanish", "meta": "~ Intermediate · B2", "level": 65 },
-      { "name": "Japanese 日本語", "meta": "~ Intermediate · B1", "level": 55 }
+      {
+        "name": "German",
+        "meta": "Native · Muttersprache",
+        "level": 100
+      },
+      {
+        "name": "English",
+        "meta": "Fluent · TOEFL 109",
+        "level": 90
+      },
+      {
+        "name": "Spanish",
+        "meta": "~ Intermediate · B2",
+        "level": 65
+      },
+      {
+        "name": "Japanese 日本語",
+        "meta": "~ Intermediate · B1",
+        "level": 55
+      }
     ],
     "achievements": [
-      { "mark": "学", "title": "M.S. Computer Science · GPA 4.0", "desc": "TU Berlin, with an exchange year at Kyoto University." },
-      { "mark": "G", "title": "Google Open Source Peer Bonus", "desc": "Recognised by Google for open-source contributions." },
-      { "mark": "1", "title": "Bundeswettbewerb Informatik", "desc": "1st & 3rd prize in Germany's national computer-science competition." },
-      { "mark": "音", "title": "Jugend Musiziert · 2nd prize", "desc": "Brandenburg's youth-music competition." }
+      {
+        "mark": "学",
+        "title": "M.S. Computer Science · GPA 4.0",
+        "desc": "TU Berlin, with an exchange year at Kyoto University."
+      },
+      {
+        "mark": "G",
+        "title": "Google Open Source Peer Bonus",
+        "desc": "Recognised by Google for open-source contributions."
+      },
+      {
+        "mark": "1",
+        "title": "Bundeswettbewerb Informatik",
+        "desc": "1st & 3rd prize in Germany's national computer-science competition."
+      },
+      {
+        "mark": "音",
+        "title": "Jugend Musiziert · 2nd prize",
+        "desc": "Brandenburg's youth-music competition."
+      }
     ]
   },
   "opensource": {
@@ -181,9 +305,21 @@
     "heading": "Let's build something meaningful together.",
     "watermark": "連",
     "buttons": [
-      { "label": "GitHub @dariyooo ↗", "url": "https://github.com/dariyooo", "primary": true },
-      { "label": "♥ Sponsor", "url": "https://github.com/sponsors/dariyooo", "primary": false },
-      { "label": "Try DaKanji ↗", "url": "https://dakanji.app", "primary": false }
+      {
+        "label": "GitHub @dariyooo ↗",
+        "url": "https://github.com/dariyooo",
+        "primary": true
+      },
+      {
+        "label": "♥ Sponsor",
+        "url": "https://github.com/sponsors/dariyooo",
+        "primary": false
+      },
+      {
+        "label": "Try DaKanji ↗",
+        "url": "https://dakanji.app",
+        "primary": false
+      }
     ],
     "footerLeft": "© 2026 Dario Klepoch · Berlin / 京都",
     "footerRight": "一緒に頑張ろう。"
