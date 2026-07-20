@@ -41,13 +41,13 @@
     "num": "2",
     "kicker": "作品 / SELECTED WORK",
     "heading": "Things I've built.",
-    "linkLabel": "All 54 repos ↗",
+    "linkLabel": "All 57 repos ↗",
     "linkUrl": "https://github.com/dariyooo",
     "items": [
       {
         "lang": "Dart · Flutter",
         "langColor": "#00B4AB",
-        "stars": "★ 133",
+        "stars": "★ 135",
         "icon": { "type": "img", "src": "https://raw.githubusercontent.com/dariyooo/DaKanji/main/assets/images/dakanji/icon.png" },
         "name": "DaKanji",
         "desc": "An offline, cross-platform Japanese dictionary. Draw a kanji, get the reading. Works like magic on iOS, Android, Mac, Windows & Linux.",
