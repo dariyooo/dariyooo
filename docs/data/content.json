@@ -58,7 +58,7 @@
     "num": "2",
     "kicker": "作品 / SELECTED WORK",
     "heading": "Things I've built.",
-    "linkLabel": "All 65 repos ↗",
+    "linkLabel": "All 68 repos ↗",
     "linkUrl": "https://github.com/dariyooo",
     "items": [
       {
@@ -87,7 +87,7 @@
       {
         "lang": "Python · PyTorch",
         "langColor": "#3572A5",
-        "stars": "★ 64",
+        "stars": "★ 63",
         "icon": {
           "type": "char",
           "char": "筆"
