@@ -64,7 +64,7 @@
       {
         "lang": "Dart · Flutter",
         "langColor": "#00B4AB",
-        "stars": "★ 140",
+        "stars": "★ 141",
         "icon": {
           "type": "img",
           "src": "https://raw.githubusercontent.com/dariyooo/DaKanji/main/assets/images/dakanji/icon.png"
@@ -87,7 +87,7 @@
       {
         "lang": "Python · PyTorch",
         "langColor": "#3572A5",
-        "stars": "★ 65",
+        "stars": "★ 66",
         "icon": {
           "type": "char",
           "char": "筆"
